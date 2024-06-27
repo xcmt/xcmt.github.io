@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/><meta name="theme-color" content="#3b3e43"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="format-detection" content="telephone=no"/><title>信息收集 - ArcherAr 的个人博客</title><meta name="description" content="A small and beautiful blogging system. 一款小而美的博客系统。"/><meta property="og:description" content="A small and beautiful blogging system. 一款小而美的博客系统。"/>    <meta name="keywords" content="网安,博客,开源"/><link rel="dns-prefetch" href="https://xjhh.asia"/><link rel="dns-prefetch" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="https://xjhh.asia"><link rel="icon" type="image/png" href="https://b3log.org/images/brand/solo-128.png"/><link rel="apple-touch-icon" href="https://b3log.org/images/brand/solo-128.png"><link rel="shortcut icon" type="image/x-icon" href="https://b3log.org/images/brand/solo-128.png"><meta name="copyright" content="B3log"/><meta http-equiv="Window-target" content="_top"/><meta property="og:locale" content="zh_CN"/><meta property="og:title" content="信息收集 - ArcherAr 的个人博客"/><meta property="og:site_name" content="ArcherAr 的个人博客"/><meta property="og:url"      content="https://xjhh.asia/articles/2024/06/27/1719497419404.html?"/><meta property="og:image" content="https://b3log.org/images/brand/solo-128.png"/><link rel="search" type="application/opensearchdescription+xml" title="信息收集 - ArcherAr 的个人博客" href="/opensearch.xml"><link href="https://xjhh.asia/rss.xml" title="RSS" type="application/rss+xml" rel="alternate"/><link rel="manifest" href="https://xjhh.asia/manifest.json">        <link rel="canonical" href="https://xjhh.asia/articles/2024/06/27/1719497419404.html">        <link rel="stylesheet"
+              href="https://xjhh.asia/skins/Bubble/css/base.css?1719459715887"/>
+    <script src="https://cdn.jsdelivr.net/npm/vditor@3.8.4/dist/js/icons/ant.js" async="" id="vditorIconScript"></script></head>
+<body class="fn__flex-column">
+<div id="pjax" class="fn__flex-1">
+    
+    <progress class="fn__progress"></progress>
+    <header class="header header--article">
+        <div class="wrapper header__title">
+            <h1 class="header__h1 fn__flex-inline">
+                <a href="https://xjhh.asia" rel="start">ArcherAr 的个人博客</a>
+            </h1>
+            <h2 class="header__desc header__desc--title">记录精彩的程序人生</h2>
+            <div class="header__desc">
+                Open Source, Open Mind, <br/>Open Sight, Open Future!
+
+<!-- 公告栏可使用 HTML、JavaScript，比如可以在此加入第三方统计 js -->
+            </div>
+            <svg class="header__down" id="headerDown" viewBox="0 0 32 32" width="100%" height="100%">
+                <path d="M15.992 25.304c-0 0-0 0-0.001 0-0.516 0-0.981-0.216-1.31-0.563l-0.001-0.001-14.187-14.996c-0.306-0.323-0.494-0.76-0.494-1.241 0-0.998 0.809-1.807 1.807-1.807 0.517 0 0.983 0.217 1.313 0.565l0.001 0.001 12.875 13.612 12.886-13.612c0.331-0.348 0.797-0.565 1.314-0.565 0.481 0 0.918 0.187 1.242 0.493l-0.001-0.001c0.723 0.687 0.755 1.832 0.072 2.555l-14.201 14.996c-0.33 0.348-0.795 0.564-1.311 0.564-0.001 0-0.003 0-0.004 0h0z"></path>
+            </svg>
+        </div>
+    </header>
+    <div class="side__menu">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M30 18h-28c-1.1 0-2-0.9-2-2s0.9-2 2-2h28c1.1 0 2 0.9 2 2s-0.9 2-2 2zM30 6.25h-28c-1.1 0-2-0.9-2-2s0.9-2 2-2h28c1.1 0 2 0.9 2 2s-0.9 2-2 2zM2 25.75h28c1.1 0 2 0.9 2 2s-0.9 2-2 2h-28c-1.1 0-2-0.9-2-2s0.9-2 2-2z"></path>
+        </svg>
+        <span>
+            &nbsp; menu
+        </span>
+    </div>
+    <div class="side__main">
+        <div class="side__bg"></div>
+        <div class="side__panel">
+            <svg class="side__close ft__a" version="1.1" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                 viewBox="0 0 20 20">
+                <path d="M18.362 19.324c-0.902 0.902-2.363 0.902-3.263 0l-5.098-5.827-5.098 5.825c-0.902 0.902-2.363 0.902-3.263 0-0.902-0.902-0.902-2.363 0-3.263l5.304-6.057-5.306-6.061c-0.902-0.902-0.902-2.361 0-3.263s2.361-0.902 3.263 0l5.1 5.829 5.098-5.829c0.902-0.902 2.361-0.902 3.263 0s0.902 2.363 0 3.263l-5.304 6.061 5.304 6.057c0.902 0.902 0.902 2.363 0 3.265z"></path>
+            </svg>
+
+            <div class="side__header">
+                <a href="https://xjhh.asia" rel="start"><img class="side__logo" alt="ArcherAr 的个人博客" src="https://b3logfile.com/avatar/1719287232111.png?imageView2/1/w/128/h/128/interlace/0/q/100"></a>
+
+                <div class="side__meta">
+                    1 文章 <br>
+                    <span data-uvstaturl="https://xjhh.asia">0</span> 浏览
+                    
+                </div>
+            </div>
+
+            <div class="side__title">
+                <span>ღゝ◡╹)ノ❤️</span>
+            </div>
+            <ul class="side__nav">
+                <li>
+                    <a href="https://xjhh.asia" rel="start">
+                            ArcherAr 的个人博客
+                    </a>
+                </li>
+                <li>
+                    <a href="https://xjhh.asia/categories.html">分类</a>
+                </li>
+                <li>
+                    <a href="https://xjhh.asia/tags.html">标签墙</a>
+                </li>
+                <li>
+                    <a href="https://xjhh.asia/archives.html">存档</a>
+                </li>
+                <li>
+                    <a href="https://xjhh.asia/links.html">友链</a>
+                </li>
+                <li>
+                    <a rel="alternate" href="https://xjhh.asia/rss.xml">RSS</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="article__top" style="background-image: url(https://b3logfile.com/bing/20210830.jpg?imageView2/1/w/960/h/540/interlace/1/q/100)">
+        <div style="background-image: url(https://b3logfile.com/bing/20210830.jpg?imageView2/1/w/960/h/540/interlace/1/q/100)"></div>
+        <canvas id="articleTop"></canvas>
+    </div>
+    <div class="article">
+        <div class="ft__center">
+            <div class="article__meta">
+                <time>
+                    2024-06-27
+                </time>
+                /
+                    <a rel="tag"
+                       href="https://xjhh.asia/tags/%E7%BD%91%E5%AE%89%E6%B5%8B%E8%AF%95%E8%B7%AF%E7%BA%BF">网安测试路线</a> &nbsp;
+            </div>
+            <h2 class="article__title">
+                信息收集
+            </h2>
+<div class="article__share"
+     data-title="信息收集"
+     data-blogtitle="ArcherAr 的个人博客"
+     data-url="https://xjhh.asia/articles/2024/06/27/1719497419404.html"
+     data-avatar="https://b3logfile.com/avatar/1719287232111.png?imageView2/1/w/128/h/128/interlace/0/q/100">
+    <span class="item" data-type="qqz">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M22.824 13.989l-8.348 6.287s3.351 0.522 8.404 0.461l-0.23-1.040 7.2-6.549c0.132-0.12 0.183-0.312 0.129-0.487s-0.203-0.299-0.377-0.314l-9.492-0.856-3.708-9.213c-0.068-0.169-0.226-0.279-0.401-0.279s-0.333 0.11-0.401 0.279l-3.708 9.213-9.492 0.856c-0.174 0.015-0.323 0.139-0.377 0.314s-0.004 0.366 0.129 0.487l7.2 6.549-2.158 9.742c-0.040 0.178 0.026 0.365 0.168 0.474 0.142 0.107 0.331 0.115 0.481 0.021l8.158-5.165 8.158 5.165c0.070 0.045 0.147 0.066 0.225 0.066 0.090 0 0.18-0.029 0.256-0.086 0.142-0.109 0.208-0.295 0.168-0.474l-1.707-7.704c0.732-0.386 1.538-1.040 1.538-1.040s-3.195 1.638-14.664 0.838l8.312-6.325s-0.327-0.534-10.744-0.914c-0.697-0.026 8.493-1.83 15.281-0.305z"></path>
+        </svg>
+    </span>
+    <span class="item" data-type="wechat">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M9.062 9.203c0-0.859-0.562-1.422-1.422-1.422-0.844 0-1.703 0.562-1.703 1.422 0 0.844 0.859 1.406 1.703 1.406 0.859 0 1.422-0.562 1.422-1.406zM20.672 17.125c0-0.562-0.562-1.125-1.422-1.125-0.562 0-1.125 0.562-1.125 1.125 0 0.578 0.562 1.141 1.125 1.141 0.859 0 1.422-0.562 1.422-1.141zM16.984 9.203c0-0.859-0.562-1.422-1.406-1.422-0.859 0-1.703 0.562-1.703 1.422 0 0.844 0.844 1.406 1.703 1.406 0.844 0 1.406-0.562 1.406-1.406zM26.906 17.125c0-0.562-0.578-1.125-1.422-1.125-0.562 0-1.125 0.562-1.125 1.125 0 0.578 0.562 1.141 1.125 1.141 0.844 0 1.422-0.562 1.422-1.141zM22.75 10.922c-0.359-0.047-0.719-0.063-1.094-0.063-5.375 0-9.625 4.016-9.625 8.953 0 0.828 0.125 1.625 0.359 2.375-0.359 0.031-0.703 0.047-1.063 0.047-1.422 0-2.547-0.281-3.969-0.562l-3.953 1.984 1.125-3.406c-2.828-1.984-4.531-4.547-4.531-7.656 0-5.391 5.094-9.625 11.328-9.625 5.563 0 10.453 3.391 11.422 7.953zM32 19.687c0 2.547-1.688 4.813-3.969 6.516l0.859 2.828-3.109-1.703c-1.141 0.281-2.281 0.578-3.406 0.578-5.391 0-9.625-3.688-9.625-8.219s4.234-8.219 9.625-8.219c5.094 0 9.625 3.688 9.625 8.219z"></path>
+        </svg>
+    </span>
+    <span class="item" data-type="weibo">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M13.444 27.064c-5.3 0.525-9.875-1.875-10.219-5.35-0.344-3.481 3.675-6.719 8.969-7.244 5.3-0.525 9.875 1.875 10.212 5.35 0.35 3.481-3.669 6.725-8.963 7.244zM24.038 15.521c-0.45-0.137-0.762-0.225-0.525-0.819 0.512-1.287 0.563-2.394 0.006-3.188-1.038-1.481-3.881-1.406-7.137-0.037 0 0-1.025 0.444-0.762-0.363 0.5-1.613 0.425-2.956-0.356-3.737-1.769-1.769-6.469 0.069-10.5 4.1-3.013 3.006-4.763 6.212-4.763 8.981 0 5.287 6.787 8.506 13.425 8.506 8.7 0 14.494-5.056 14.494-9.069 0-2.431-2.044-3.806-3.881-4.375z"></path>
+            <path d="M29.819 5.833c-2.1-2.331-5.2-3.219-8.063-2.612v0c-0.663 0.144-1.081 0.794-0.938 1.45 0.144 0.662 0.788 1.081 1.45 0.938 2.038-0.431 4.238 0.2 5.731 1.856s1.9 3.913 1.256 5.888v0c-0.206 0.644 0.144 1.331 0.788 1.544 0.644 0.206 1.331-0.144 1.544-0.787v-0.006c0.9-2.762 0.331-5.938-1.769-8.269z"></path>
+            <path d="M26.588 8.752c-1.025-1.138-2.538-1.569-3.925-1.269-0.569 0.119-0.931 0.688-0.813 1.256 0.125 0.569 0.688 0.931 1.25 0.806v0c0.681-0.144 1.419 0.069 1.919 0.619 0.5 0.556 0.637 1.313 0.419 1.975v0c-0.175 0.55 0.125 1.15 0.681 1.331 0.556 0.175 1.15-0.125 1.331-0.681 0.438-1.356 0.163-2.906-0.863-4.037z"></path>
+            <path d="M13.738 20.771c-0.188 0.319-0.594 0.469-0.912 0.337-0.319-0.125-0.412-0.488-0.231-0.794 0.188-0.306 0.581-0.456 0.894-0.337 0.313 0.113 0.425 0.469 0.25 0.794zM12.044 22.933c-0.512 0.819-1.613 1.175-2.438 0.8-0.813-0.369-1.056-1.319-0.544-2.119 0.506-0.794 1.569-1.15 2.388-0.806 0.831 0.356 1.1 1.3 0.594 2.125zM13.969 17.146c-2.519-0.656-5.369 0.6-6.463 2.819-1.119 2.262-0.037 4.781 2.506 5.606 2.638 0.85 5.75-0.456 6.831-2.894 1.069-2.394-0.262-4.85-2.875-5.531z"></path>
+        </svg>
+    </span>
+    <span class="item" data-type="twitter">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M32.003 6.075c-1.175 0.525-2.444 0.875-3.769 1.031 1.356-0.813 2.394-2.1 2.887-3.631-1.269 0.75-2.675 1.3-4.169 1.594-1.2-1.275-2.906-2.069-4.794-2.069-3.625 0-6.563 2.938-6.563 6.563 0 0.512 0.056 1.012 0.169 1.494-5.456-0.275-10.294-2.888-13.531-6.862-0.563 0.969-0.887 2.1-0.887 3.3 0 2.275 1.156 4.287 2.919 5.463-1.075-0.031-2.087-0.331-2.975-0.819 0 0.025 0 0.056 0 0.081 0 3.181 2.263 5.838 5.269 6.437-0.55 0.15-1.131 0.231-1.731 0.231-0.425 0-0.831-0.044-1.237-0.119 0.838 2.606 3.263 4.506 6.131 4.563-2.25 1.762-5.075 2.813-8.156 2.813-0.531 0-1.050-0.031-1.569-0.094 2.913 1.869 6.362 2.95 10.069 2.95 12.075 0 18.681-10.006 18.681-18.681 0-0.287-0.006-0.569-0.019-0.85 1.281-0.919 2.394-2.075 3.275-3.394z"></path>
+        </svg>
+    </span>
+    <span class="item__qr"></span>
+</div>        </div>
+        <div class="wrapper">
+            <section class="vditor-reset articles article__content">
+                <p><img src="https://b3logfile.com/bing/20210830.jpg?imageView2/1/w/960/h/540/interlace/1/q/100" alt=""></p>
+<h1 id="toc_h1_0"><strong>一、信息收集</strong></h1>
+<h6 id="toc_h6_1"><strong>我们现在对信息收集首先要有一个checklist，首先拿到一个目标站点，首先要测试的是哪方面，然后循序渐进的往下走，不能东一下西一下，后续会不断的更新信息收集的一些方法。</strong></h6>
+<h2 id="toc_h2_2"><strong>根域名获取</strong></h2>
+<h3 id="toc_h3_3"><strong>天眼查、企查查、小蓝本、启信宝</strong></h3>
+<p>技巧： 查同电话同邮箱，企查查，导出搜品牌名</p>
+<h3 id="toc_h3_4"><strong>维基百科</strong></h3>
+<p><strong>可以查到子公司或者APP小程序的信息</strong></p>
+<h2 id="toc_h2_5"><strong>1.获取真实IP</strong></h2>
+<p><strong>为了保证网络的稳定和快速传输，网站服务商会在网络的不同位置设置节点服务器，通过 CDN（Content Delivery Network，内容分发网络）技术，将网络请求分发到最优的节点服务器上面。如果网站开启了 CDN 加速，就无法通过网站的域名信息获取真实的 IP，要对目标的 IP 资源进行收集，就要绕过 CDN 查询到其真实的 IP 信息。</strong></p>
+<h2 id="toc_h2_6"><strong>2.如何判断是否是 CDN</strong></h2>
+<p><strong>在对目标 IP 信息收集之前，首先要判断目标网站是否开启了 CDN，一般通过不同地方的主机 ping 域名和 nslookup 域名解析两种方法，通过查看返回的 IP 是否是多个的方式来判断网站是否开启了 CDN，如果返回的 IP 信息是多个不同的 IP，那就有可能使用了 CDN 技术。</strong></p>
+<h4 id="toc_h4_7"><strong>使用 ping 域名判断是否有 CDN</strong></h4>
+<p><strong>直接使用 ping 域名查看回显地址来进行判断，如下回显 <strong><code>cname.vercel-dns.com</code></strong>，很明显使用了 cdn 技术。</strong></p>
+<p><img src="https://b3logfile.com/file/2024/06/solo-fetchupload-15499708586344076711-Vv57EoE.png?imageView2/2/w/1280/format/jpg/interlace/1/q/100" alt="img"></p>
+<h4 id="toc_h4_8"><strong>使用不同主机 ping 域名判断是否有 CDN</strong></h4>
+<p><strong>如果自己在多地都有主机可以 ping 域名，就可以根据返回的 IP 信息进行判断。互联网有很多公开的服务可以进行多地 ping 来判断是否开启了 CDN，比如以下几个：</strong></p>
+<pre><code>全球Ping测试：https://www.wepcc.com/站长工具Ping检测：http://ping.chinaz.com/爱站网Ping检测：https://ping.aizhan.com/
+</code></pre>
+<p><img src="https://b3logfile.com/file/2024/06/solo-fetchupload-5977093862659700140-N1YyHMj.png?imageView2/2/w/1280/format/jpg/interlace/1/q/100" alt="img"></p>
+<p><strong>可以发现对 <strong><code>www.zjun.info</code></strong> 的全球 ping 测试，有 <strong><code>76.223.126</code></strong>、</strong><code>76.76.21.21</code>** 这两个不同的解析 IP，说明 <strong><code>www.zjun.info</code></strong> 可能使用了 CDN。**</p>
+<h4 id="toc_h4_9"><strong>使用 nslookup 域名解析判断是否有 CDN（本人最常用）</strong></h4>
+<p><strong>通过系统自带的 <strong><code>nslookup</code></strong> 命令对域名解析，发现其中的 <strong><code>Name</code></strong> 字段直接指向 <strong><code>cname.vercel-dns.com</code></strong>，毫无疑问使用了 CDN 技术。</strong></p>
+<p><img src="https://b3logfile.com/file/2024/06/solo-fetchupload-13915666382362838476-gGNQcRb.png?imageView2/2/w/1280/format/jpg/interlace/1/q/100" alt="img"></p>
+<p><strong>又比如 <strong><code>www.baidu.com</code></strong>，其中 <strong><code>Address</code></strong> 字段也是指向两个不同 IP，即 <strong><code>www.baidu.com</code></strong> 可能使用了 CDN。</strong></p>
+<p><img src="https://b3logfile.com/file/2024/06/solo-fetchupload-4991153106443256611-xDMYvRV.png?imageView2/2/w/1280/format/jpg/interlace/1/q/100" alt="img"></p>
+<h2 id="toc_h2_10"><strong>3.如何绕过 CDN 获取真实 IP</strong></h2>
+<h4 id="toc_h4_11"><strong>查询子域名，子域名可能没有使用CDN</strong></h4>
+<p><strong>由于 CDN 加速需要支付一定的费用，很多网站只对主站做了 CDN 加速，子域名没有做 CDN 加速，子域名可能跟主站在同一个服务器或者同一个 C 段网络中，可以通过子域名探测的方式，收集目标的子域名信息，通过查询子域名的 IP 信息来辅助判断主站的真实 IP 信息。</strong></p>
+<h4 id="toc_h4_12"><strong>查询历史 DNS 记录</strong></h4>
+<p><strong>通过查询 DNS 与 IP 绑定的历史记录就有可能发现之前的真实 IP 信息，常用的第三方服务网站有：</strong></p>
+<pre><code>dnsdb：https://dnsdb.io/zh-cn/viewdns：https://viewdns.info/iphistory/微步在线：https://x.threatbook.cn/
+</code></pre>
+<h4 id="toc_h4_13"><strong>使用国外主机请求域名（也就是全球ping）</strong></h4>
+<p><strong>部分国内的 CDN 加速服务商只对国内的线路做了 CDN 加速，但是国外的线路没有做加速，这样就可以通过国外的主机来探测真实的 IP 信息。</strong></p>
+<p><strong>探测的方式也有两种，可以利用已有的国外主机直接进行探测；如果没有国外主机，可以利用公开的多地 ping 服务（多地 ping 服务有国外的探测节点），可以利用国外的探测节点返回的信息来判断真实的 IP 信息。</strong></p>
+<h4 id="toc_h4_14"><strong>网站信息泄露漏洞</strong></h4>
+<p><strong>利用网站存在的漏洞和信息泄露的敏感信息、文件（如：phpinfo 文件、网站源码文件、Github 泄露的信息等）获取真实的 IP 信息。</strong></p>
+<p><strong>phpinfo 页面中有一个 SERVER_ADDR 字段会显示该主机真实 IP，后台文件像hosts.txt里面存放着真实ip。</strong></p>
+<h4 id="toc_h4_15"><strong>邮件信息</strong></h4>
+<p><strong>一般的邮件系统都在内部，没有经过 CDN 的解析，通过利用目标网站的邮箱注册、找回密码或者 RSS 订阅等功能，接收到发来的邮件后，查看邮件源码就可以获得目标的真实 IP。这种打bc没啥用感觉</strong></p>
+<h4 id="toc_h4_16"><strong>目标网站 APP 应用</strong></h4>
+<p><strong>如果目标网站有自己的 App，可以尝试利用 Burp Suite 等流量抓包工具抓取 App 的请求，从里面可能会找到目标的真实 IP。</strong></p>
+<h2 id="toc_h2_17"><strong><strong>4. 旁站查询（IP 反查）</strong></strong></h2>
+<p><strong>旁站是与攻击目标在同一服务器上的不同网站，获取到目标真实 IP 的情况下，在攻击目标没有可利用漏洞的情况下，可以通过查找旁站的漏洞攻击旁站，然后再通过提权拿到服务器的最高权限，拿到服务器的最高权限后攻击目标也就拿下了。</strong></p>
+<p><strong>旁站信息收集也称为 <strong><strong><strong>IP 反查</strong></strong></strong>，主要有以下方式：</strong></p>
+<h4 id="toc_h4_18"><strong>Nmap 扫描获取旁站信息</strong></h4>
+<p><strong>使用命令</strong></p>
+<pre><code>nmap -sV -p 1-65535 x.x.x.x 
+</code></pre>
+<p><strong>对目标 IP 进行全端口扫描，确保每个可能开放的端口服务都能识别到。</strong></p>
+<h4 id="toc_h4_19"><strong>第三方服务获取旁站信息3</strong></h4>
+<p><strong>旁站信息可以通过第三方服务进行收集，比如在线网站与搜索引擎等。以下是几个在线搜集网站：</strong></p>
+<pre><code>站长工具同IP网站查询：http://s.tool.chinaz.com/samewebscan：https://www.webscan.cc/
+云悉：https://www.yunsee.cn/
+微步在线：https://x.threatbook.cn/
+在线旁站查询|C段查询|必应接口C段查询：http://www.bug8.me/bing/bing.php
+</code></pre>
+<p><strong>也可以利用搜索引擎语法来实现查询：</strong></p>
+<pre><code>https://cn.bing.com/search?q=ip:x.x.x.x
+</code></pre>
+<p><strong>fofa</strong></p>
+<pre><code>ip="x.x.x.x"
+</code></pre>
+<h2 id="toc_h2_20"><strong>5.IP查询</strong></h2>
+<p><strong>C 段主机是指与目标服务器在同一 C 段网络的服务器。攻击目标的 C 段存活主机是信息收集的重要步骤，很多企业的内部服务器可能都会在一个 C 段网络中。在很难找到攻击目标服务器互联网漏洞的情况下，可以通过攻击 C 段主机，获取对 C 段主机的控制权，进入企业内网，在企业的内网安全隔离及安全防护不如互联网防护健全的情况下，可以通过 C 段的主机进行内网渗透，这样就可以绕过互联网的防护，对目标进行攻击。但是这种攻击方式容易打偏。</strong></p>
+<h4 id="toc_h4_21"><strong>Nmap 扫描 C 段</strong></h4>
+<p><strong>使用命令 <strong><code>nmap -sn x.x.x.x/24</code></strong>，对目标 IP 的 C 段主机进行存活扫描，根据扫描的结果可以判断目标 IP 的 C 段还有哪些主机存活。</strong></p>
+<p><strong>nmap -Pn 这个命令在实际工作中的使用很多，该命令不通过 ICMP 协议进行主机存活判断，会直接对端口进行扫描。这样在开启了防火墙禁 Ping 的情况下，也可以利用这个命令正常扫描目标是否存活及对外开启的相关服务。</strong></p>
+<h4 id="toc_h4_22"><strong>搜索引擎语法收集 C 段信息</strong></h4>
+<p><strong>Google</strong></p>
+<pre><code>site:x.x.x.*
+Fofa
+ip="x.x.x.x/24"
+在线C段扫描工具
+在线旁站查询|C段查询|必应接口C段查询：http://www.bug8.me/bing/bing.php
+查旁站：https://chapangzhan.com/
+云悉：https://www.yunsee.cn/
+</code></pre>
+<h3 id="toc_h3_23"><strong>本地 C 段扫描工具（其中某些工具不只是 C 段扫描）</strong></h3>
+<pre><code>httpscan：https://github.com/zer0h/httpscan
+小米范web查找器Goby：https://gobies.org/
+bufferfly：https://github.com/dr0op/bufferfly
+cscan：https://github.com/z1un/cscan
+</code></pre>
+<h3 id="toc_h3_24"><strong>在线IP段查询</strong></h3>
+<p><a href="https://bgp.he.net/" target="_blank"><strong>Hurricane Electric BGP Toolkit (he.net)</strong></a></p>
+<h2 id="toc_h2_25"><strong>6. 子域名查询</strong></h2>
+<p><strong>子域名是父域名的下一级，比如 blog.zjun.info 和 tools.zjun.info 这两个域名是 zjun.info 的子域名。一般企业对于主站域名的应用的防护措施比较健全，不管是应用本身的漏洞发现、漏洞修复，还是安全设备相关的防护都做得更加及时和到位，而企业可能有多个、几十个甚至更多的子域名应用，因为子域名数量多，企业子域名应用的防护可能会没有主站及时。攻击者在主站域名找不到突破口时，就可以进行子域名的信息收集，然后通过子域名的漏洞进行迂回攻击。子域名信息收集主要包含枚举发现子域名、搜索引擎发现子域名、第三方聚合服务发现子域名、证书透明性信息发现子域名、DNS 域传送发现子域名等方式。</strong></p>
+<h4 id="toc_h4_26"><strong>枚举发现子域名</strong></h4>
+<p><strong>子域名收集可以通过枚举的方式对子域名进行收集，枚举需要一个好的字典，制作字典时会将常见子域名的名字放到字段里面，增加枚举的成功率。子域名暴力破解常用的工具以下：</strong></p>
+<p><strong>在线子域名查询：</strong></p>
+<p><a href="https://shrewdeye.app/" target="_blank">https://shrewdeye.app/</a></p>
+<p><a href="https://phpinfo.me/domain/OneForAll" target="_blank">https://phpinfo.me/domain/OneForAll</a><strong>：</strong></p>
+<p><a href="https://github.com/shmilylty/OneForAllknock" target="_blank">https://github.com/shmilylty/OneForAllknock</a><strong>：</strong></p>
+<p><a href="https://github.com/guelfoweb/knocksubDomainsBrute" target="_blank">https://github.com/guelfoweb/knocksubDomainsBrute</a><strong>：</strong></p>
+<p><a href="https://github.com/lijiejie/subDomainsBruteLayer" target="_blank">https://github.com/lijiejie/subDomainsBruteLayer</a></p>
+<p><strong>子域名挖掘机：</strong><a href="https://github.com/euphrat1ca/LayerDomainFinder" target="_blank">https://github.com/euphrat1ca/LayerDomainFinder</a></p>
+<h4 id="toc_h4_27"><strong>搜索引擎发现子域名</strong></h4>
+<p><strong>使用搜索引擎语法，如</strong></p>
+<p><strong>Google 或者百度等</strong></p>
+<pre><code>site:xxx.com
+Fofa
+domain="xxx.com"
+</code></pre>
+<h4 id="toc_h4_28"><strong><strong>第三方聚合服务发现子域名</strong></strong></h4>
+<p><strong>第三方聚合平台 Netcraft、Virustotal、ThreatCrowd、DNSdumpster 和 ReverseDNS 等获取子域信息。</strong></p>
+<p><strong>Sublist3r：</strong><a href="https://github.com/aboul3la/Sublist3rOneForAll" target="_blank">https://github.com/aboul3la/Sublist3rOneForAll</a>**：****<br>
+**<a href="https://github.com/shmilylty/OneForAll" target="_blank">https://github.com/shmilylty/OneForAll</a></p>
+<h4 id="toc_h4_29"><strong><strong>证书透明性信息发现子域名</strong></strong></h4>
+<p><strong>证书透明性（Certificate Transparency，CT）是 Google 的公开项目，通过让域所有者、CA 和域用户对 SSL 证书的发行和存在进行审查，来纠正这些基于证书的威胁。具体而言，证书透明性具有三个主要目标：</strong></p>
+<pre><code>使CA无法（或至少非常困难）为域颁发SSL证书，而该域的所有者看不到该证书；提供一个开放的审核和监视系统，该系统可以让任何域所有者或CA确定证书是错误的还是恶意颁发的；尽可能防止用户被错误或恶意颁发的证书所欺骗。
+</code></pre>
+<p><strong>证书透明性项目有利有弊。通过证书透明性，可以检测由证书颁发机构错误颁发的 SSL 证书，可以识别恶意颁发证书的证书颁发机构。因为它是一个开放的公共框架，所以任何人都可以构建或访问驱动证书透明性的基本组件，CA 证书中包含了域名、子域名、邮箱等敏感信息，存在一定的安全风险。</strong></p>
+<p><strong>利用证书透明性进行域名信息收集，一般使用 CT 日志搜索引擎进行域名信息收集，如在线网站：</strong></p>
+<p><a href="https://crt.sh/" target="_blank">https://crt.sh/</a></p>
+<p><a href="https://transparencyreport.google.com/https/certificates" target="_blank">https://transparencyreport.google.com/https/certificates</a></p>
+<p><a href="https://developers.facebook.com/tools/ct/" target="_blank">https://developers.facebook.com/tools/ct/</a></p>
+<p><a href="https://censys.io/" target="_blank">https://censys.io/</a>** **</p>
+<p><a href="https://google.com/transparencyreport/https/ct" target="_blank">https://google.com/transparencyreport/https/ct</a></p>
+<p><strong>本地工具：</strong></p>
+<p><strong>ctfr：</strong><a href="https://github.com/UnaPibaGeek/ctfrOneForAll" target="_blank">https://github.com/UnaPibaGeek/ctfrOneForAll</a><strong>：</strong><a href="https://github.com/shmilylty/OneForAll" target="_blank">https://github.com/shmilylty/OneForAll</a></p>
+<h4 id="toc_h4_30"><strong><strong>DNS 域传送发现子域名</strong></strong></h4>
+<p><strong>DNS 服务器分为：主服务器、备份服务器和缓存服务器。在主备服务器之间同步数据库，需要使用 “DNS 域传送”。域传送是指备份服务器从主服务器拷贝数据，并用得到的数据更新自身数据库。</strong></p>
+<p><strong>若 DNS 服务器配置不当，可能导致攻击者获取某个域的所有记录。造成整个网络的拓扑结构泄露给潜在的攻击者，包括一些安全性较低的内部主机，如测试服务器。同时，黑客可以快速的判定出某个特定 zone 的所有主机，收集域信息，选择攻击目标，找出未使用的 IP 地址，绕过基于网络的访问控制。目前来看 "DNS 域传送漏洞" 已经很少了。</strong></p>
+<p><strong>利用 nmap 漏洞检测脚本 dns-zone-transfer 进行检测</strong></p>
+<pre><code>nmap --script dns-zone-transfer --script-args dns-zone-transfer.domain=xxx.edu.cn -p 53 -Pn dns.xxx.edu.cn
+Linux dig命令进行测试
+dig xxx.com nsdig axfr @dns xxx.com
+</code></pre>
+<h4 id="toc_h4_31"><strong>有许多第三方服务聚合了大量的DNS数据集，并通过它们来检索给 定域名的子域名。</strong></h4>
+<p><strong>（1）VirusTotal：</strong><a href="https://www.virustotal.com/#/home/search" target="_blank">https://www.virustotal.com/#/home/search</a>** **</p>
+<p><strong>（2）DNSdumpster：</strong><a href="https://dnsdumpster.com/" target="_blank">https://dnsdumpster.com</a></p>
+<p><img src="https://b3logfile.com/file/2024/06/image-RBvjog7.png?imageView2/2/w/1280/format/jpg/interlace/1/q/100" alt="image.png"></p>
+<h4 id="toc_h4_32"><strong>ICP备案查询域名</strong></h4>
+<p><strong>站长工具</strong><a href="https://icp.tool.chinaz.com/" target="_blank"><strong>icp.tool.chinaz.com</strong></a></p>
+<p><strong>先搜索域名，然后根据备案号查询域名信息，有api接口</strong></p>
+<h2 id="toc_h2_33"><strong><strong>7. 端口扫描</strong></strong></h2>
+<p><strong>最常用的就是 nmap</strong></p>
+<p><strong>-sS (TCP SYN扫描)-sT (TCP connect()扫描)-sU (UDP扫描)-sN; -sF; -sX (TCP Null，FIN，and Xmas扫描)-Pn (不通过ICMP探测)</strong>**<br>
+<strong><strong>详细文档：</strong></strong><br>
+**<a href="https://nmap.org/man/zh/" target="_blank">https://nmap.org/man/zh/</a></p>
+<p><strong>其次可能还会用到 masscan：</strong></p>
+<p><a href="https://github.com/robertdavidgraham/masscan" target="_blank">https://github.com/robertdavidgraham/masscan</a></p>
+<h4 id="toc_h4_34"><strong>常见端口及对应服务表：</strong></h4>
+<p><img src="https://b3logfile.com/file/2024/06/solo-fetchupload-10634419608293758044-Q4UXOzl.png?imageView2/2/w/1280/format/jpg/interlace/1/q/100" alt="img"></p>
+<h2 id="toc_h2_35"><strong><strong>8. 目录探测</strong></strong></h2>
+<p><strong>在信息搜集中，目录扫描是一个很重要的步骤，可以帮助我们获得如网站的测试页面、后台地址、常见第三方高危组件路径等。但是目前多数网站都有云 waf、主机防护等，对于频繁访问的 IP 会封禁处理。对于云 waf，找到网站真实 IP 是很关键的，其余的情况基本都可以修改开源工具代码利用 IP 代理池或控制访问频率的方式进行探测。</strong></p>
+<p><strong>常用目录扫描工具如下：</strong></p>
+<p><strong>dirsearch：</strong><a href="https://github.com/maurosoria/dirsearchdirmap" target="_blank">https://github.com/maurosoria/dirsearchdirmap</a><strong>：</strong></p>
+<p><a href="https://github.com/H4ckForJob/dirmap" target="_blank">https://github.com/H4ckForJob/dirmap</a><strong>御剑目录扫描：</strong></p>
+<p><a href="https://github.com/foryujian/yjdirscandirb" target="_blank">https://github.com/foryujian/yjdirscandirb</a><strong>：</strong><a href="https://tools.kali.org/web-applications/dirb" target="_blank">https://tools.kali.org/web-applications/dirb</a></p>
+<h4 id="toc_h4_36"><strong>IP 代理池推荐：</strong></h4>
+<p><strong>ProxyPool：</strong><a href="https://github.com/Python3WebSpider/ProxyPool" target="_blank">https://github.com/Python3WebSpider/ProxyPool</a></p>
+<h2 id="toc_h2_37"><strong><strong>9. 指纹识别</strong></strong></h2>
+<p><strong>常见的指纹识别内容有 CMS 识别、框架识别、中间件识别、WAF 识别。CMS 识别一般利用不同的 CMS 特征来识别，常见的识别方式包括特定关键字识别、特定文件及路径识别、CMS 网站返回的响应头信息识别等。</strong></p>
+<h4 id="toc_h4_38"><strong><strong>服务器信息搜集</strong></strong></h4>
+<p><strong>服务版本识别、操作系统信息识别都可以利用 nmap 实现识别</strong></p>
+<pre><code>nmap -sV -p 1-65535 x.x.x.xnmap -O x.x.x.x
+</code></pre>
+<h4 id="toc_h4_39"><strong><strong>CMS 识别</strong></strong></h4>
+<p><strong>识别 CMS 的目的在于，方便利用已公开漏洞进行渗透测试，甚至可以到对应 CMS 的官网下载对应版本的 CMS 进行本地白盒代码审计。</strong></p>
+<h4 id="toc_h4_40"><strong><strong>特定关键字识别</strong></strong></h4>
+<p><strong>CMS 的首页文件、特定文件可能包含了 CMS 类型及版本信息，通过访问这些文件，将返回的网页信息（如 Powered by XXCMS）与扫描工具数据库存储的指纹信息进行正则匹配，判断 CMS 的类型。</strong></p>
+<p><strong>也可能前端源码中或 meta 标签中的 content 字段存在一些 CMS 特征信息，下图很明显能得知是 WordPress 框架。</strong></p>
+<p><img src="https://b3logfile.com/file/2024/06/solo-fetchupload-4511599798839317946-A4ZiusW.png?imageView2/2/w/1280/format/jpg/interlace/1/q/100" alt="img"></p>
+<h4 id="toc_h4_41"><strong><strong>特定文件及路径识别</strong></strong></h4>
+<p><strong>不同的 CMS 会有不同的网站结构及文件名称，可以通过特定文件及路径识别 CMS。<strong><strong><strong>如 WordPress 会有特定的文件路径 /wp-admin、/wp-includes 等</strong></strong></strong>，有些 CMS 的 <strong><strong><strong>robots.txt</strong></strong></strong> 文件也可能包含了 CMS 特定的文件路径，与扫描工具数据库存储的指纹信息进行正则匹配，判断 CMS 的类型。</strong></p>
+<p><strong>CMS 会有一些 JS、CSS、图片等静态文件，这些文件一般不会变化，可以利用这些特定文件的 MD5 值作为指纹信息来判断 CMS 的类型。</strong></p>
+<h4 id="toc_h4_42"><strong><strong>响应头信息识别</strong></strong></h4>
+<p><strong>应用程序会在响应头 Server、X-Powered-By、Set-Cookie 等字段中返回 Banner 信息或者自定义的数据字段，通过响应头返回的信息，可以对应用进行识别，有些 WAF 设备也可以通过响应头信息进行识别判断。当然 Banner 信息并不一定是完全准确的，应用程序可以自定义自己的 Banner 信息。</strong></p>
+<p><strong>例如 Shiro 的响应头信息中包含 rememberMe 字段：</strong></p>
+<p><img src="https://b3logfile.com/file/2024/06/solo-fetchupload-18156581103267730175-PSReadO.png?imageView2/2/w/1280/format/jpg/interlace/1/q/100" alt="img"></p>
+<h4 id="toc_h4_43"><strong><strong>指纹识别工具</strong></strong></h4>
+<p><strong>指纹识别常用的工具如下：</strong></p>
+<p><strong>whatweb：</strong><a href="https://github.com/urbanadventurer/WhatWebwappalyzer" target="_blank">https://github.com/urbanadventurer/WhatWebwappalyzer</a><strong>：</strong></p>
+<p><a href="https://github.com/AliasIO/wappalyzerGlass" target="_blank">https://github.com/AliasIO/wappalyzerGlass</a><strong>：</strong><a href="https://github.com/s7ckTeam/Glass" target="_blank">https://github.com/s7ckTeam/Glass</a></p>
+<p><strong>还有两款只支持如 WordPress, Joomla, Drupal 的工具</strong></p>
+<p><strong>CMSScan：</strong><a href="https://github.com/ajinabraham/CMSScanCMSmap" target="_blank">https://github.com/ajinabraham/CMSScanCMSmap</a><strong>：</strong><a href="https://github.com/Dionach/CMSmap" target="_blank">https://github.com/Dionach/CMSmap</a></p>
+<p><strong>云悉：</strong><a href="https://www.yunsee.cn/bugscaner" target="_blank">https://www.yunsee.cn/bugscaner</a></p>
+<p><strong>潮汐:</strong><a href="http://finger.tidesec.com/" target="_blank"><strong>TideFinger 潮汐指纹 TideFinger 潮汐指纹 (tidesec.com)</strong></a></p>
+<p><strong>在线cms识别：</strong><a href="http://whatweb.bugscaner.com/look/" target="_blank">http://whatweb.bugscaner.com/look/</a></p>
+<h2 id="toc_h2_44"><strong><strong>10.Google hacking</strong></strong></h2>
+<pre><code>目录遍历: site:$site intitle:index.of
+配置文件泄露: site:$site ext:xml | ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini
+数据库文件泄露: site:$site ext:sql | ext:dbf | ext:mdb
+日志文件泄露: site:$site ext:log
+备份和历史文件: site:$site ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
+登录页面: site:$site inurl:login
+SQL错误: site:$site intext:"sql syntax near" | intext:"syntax error has occurred" | intext:"incorrect syntax near" | intext:"unexpected end of SQL command" | intext:"Warning: mysql_connect()" | intext:"Warning: mysql_query()" | intext:"Warning: pg_connect()"
+公开文件信息: site:$site ext:doc | ext:docx | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
+phpinfo(): site:$site ext:php intitle:phpinfo "published by the PHP Group"
+搜索粘贴站点: site:pastebin.com | site:paste2.org | site:pastehtml.com | site:slexy.org | site:snipplr.com | site:snipt.net | site:textsnip.com | site:bitpaste.app | site:justpaste.it | site:heypasteit.com | site:hastebin.com | site:dpaste.org | site:dpaste.com | site:codepad.org | site:jsitor.com | site:codepen.io | site:jsfiddle.net | site:dotnetfiddle.net | site:phpfiddle.org | site:ide.geeksforgeeks.org | site:repl.it | site:ideone.com | site:paste.debian.net | site:paste.org | site:paste.org.ru | site:codebeautify.org | site:codeshare.io | site:trello.com $site
+搜索Github、Gitlab: site:github.com | site:gitlab.com $site.
+
+site:xxx.com inurl:login|admin|manage|admin_login|system|user|auth|dey|test
+site:xx.com intitle:后台|管理|内部|登录|系统
+site:xxx admin|login|system|管理|登录|内部|系统|邮件|email|mail|qq|群|微信|腾讯|
+
+site：xx.com(filetype:doc OR filetype:ppt OR fletype:pps OR filetype:xls OR fletype:docx OR filetype:pptx OR filetype:ppsx OR filetype:xlsx OR filetype:odt OR filetype:ods OR filetype:odg OR filetype:odp OR filetype:pdf OR filetype:wpd OR filetype:svg OR filetype:svgz OR filetype:indd OR filetype:rdp OR fletype:sql OR filetype:xml OR filetype:db OR filetype:mdb OR filetype:sqlite)
+
+intext:"Tesla@2020"
+
+intext:"京ICP备11041704号-15"
+</code></pre>
+<p><strong>在线Google Hacking利用：</strong><a href="https://tools.zjun.info/googlehacking/" target="_blank">https://tools.zjun.info/googlehacking/</a></p>
+<h2 id="toc_h2_45"><strong><strong>11. 社工信息收集</strong></strong></h2>
+<p><strong>主要是对目标企业单位的关键员工、供应商和合作伙伴等相关信息进行收集。通过社工可以了解目标企业的人员组织结构，通过分析人员组织结构，能够判断关键人员并对其实施社会工程学鱼叉钓鱼攻击。收集到的相关信息还可以进行社工库查询或字典的制作，用于相关应用系统的暴力破解。</strong></p>
+<h4 id="toc_h4_46"><strong><strong>whois 信息</strong></strong></h4>
+<p><strong>whois 是用来查询域名的 IP 及所有人等信息的传输协议。whois 的本质就是一个用来查询域名是否已经被注册，以及注册域名的详细信息的数据库（如域名所有人、域名注册商），可以通过 whois 来实现对域名信息的查询。whois 查询可以通过命令行或网页在线查询工具。</strong></p>
+<h4 id="toc_h4_47"><strong>whois 命令</strong></h4>
+<pre><code>whois xxx.com
+后面的具体信息就没截出来了，可以查询域名的所有人、注册商等相关信息：
+</code></pre>
+<h4 id="toc_h4_48"><strong>在线工具</strong></h4>
+<p><a href="https://123.4.cn/" target="_blank"><strong>金名网whois查询 - 金名网whois查询 (4.cn)</strong></a></p>
+<p><strong>站长工具whois查询：</strong><a href="http://tool.chinaz.com/ipwhois" target="_blank">http://tool.chinaz.com/ipwhois</a></p>
+<p><strong>爱站网whois查询：</strong><a href="https://whois.aizhan.com/" target="_blank">https://whois.aizhan.com/</a></p>
+<h2 id="toc_h2_49"><strong><strong>12. 社会工程学</strong></strong></h2>
+<p><strong>社会工程学收集的信息有很多，包含网络 ID（现用和曾用）、真实姓名、手机号、电子邮箱、出生日期、身份证号、银行卡、支付宝账号、QQ 号、微信号、家庭地址、注册网站（贴吧、微博、人人网等）等信息。</strong></p>
+<p><strong>在目标相关网页中可能会存在招聘信息、客服联系等，可以利用招聘或客服聊天的方式进行钓鱼、木马植入等。</strong></p>
+<p><strong>搜集到相关的人员信息后可以制作社工字典，有如下在线或本地工具：</strong></p>
+<p><strong>bugku密码攻击器：</strong><a href="https://www.bugku.com/mima/" target="_blank">https://www.bugku.com/mima/</a></p>
+<p><strong>白鹿社工字典生成器：</strong><a href="https://github.com/z3r023/BaiLu-SED-Tool" target="_blank">https://github.com/z3r023/BaiLu-SED-Tool</a></p>
+<p><strong>除了制作社工字典进行暴破外，还可以用已知信息进行社工库查询，涉及敏感信息了，所以不给出链接，在 <strong><code>Telegram</code></strong> 软件中充斥着大量免费或付费的社工查询。</strong></p>
+<h2 id="toc_h2_50"><strong>13. js中的敏感信息</strong></h2>
+<p><strong>根据一些经验，在翻查js目录文件时，可以看目录名称，是否是像Myprofile之类有特殊含义的目录，审计这类型目录会有不一样的收获。</strong></p>
+<p><strong>一些工具：</strong></p>
+<p><strong>jsfinder：</strong><a href="https://github.com/Threezh1/JSFinder" target="_blank">https://github.com/Threezh1/JSFinder</a></p>
+<p><strong>urlfinder：</strong><a href="https://github.com/pingc0y/URLFinder" target="_blank">https://github.com/pingc0y/URLFinder</a></p>
+<h2 id="toc_h2_51"><strong>14. logo变化</strong></h2>
+<p><strong>信息收集，发现同一站点的logo发生变化，猜测这个站点下面还有别的站点。根据logo去识别是什么产 品，收集产品常见路径做字典，结合fuzz目录扫描，扫到隐藏的站点。通过隐藏沾点的漏洞 rce 。</strong></p>
+<h2 id="toc_h2_52"><strong>15.子域名泛解析</strong></h2>
+<h3 id="toc_h3_53"><strong>定义：</strong></h3>
+<p><em><em>利用通配符</em> （星号）来做次级域名以实现所有的次级域名均指向同一IP地址。在域名前添加任何子域名，均可访问到所指向的IP地址。</em>*</p>
+<pre><code>常规域名解析
+www.wolke.cn   10.10.10.10
+
+域名泛解析
+*.wolke.cn     10.10.10.10
+访问子域名a.wolke.cn，b.wolke.cn等均指向10.10.10.10
+</code></pre>
+<p><strong>也就是说ping一个完全不存在的域名他也解析了，最后正确的和错误的子域名都解析到一个ip上，这就是泛解析</strong></p>
+<h4 id="toc_h4_54"><strong>子域名爆破中解决泛解析的方式</strong></h4>
+<p>  目前最常见的解决方式是IP黑名单的方式，首先访问一个随机的并不存在的域，通过返回的结果判断是否存在泛解析，确定存在泛解析后，（脚本实现）不断的生成随机域名并发送请求，将每次返回的IP和TTL记录下来，直到大部分的IP出现次数都大于两次，则IP黑名单收集完成。****<br>
+  而后使用域名字典进行爆破，爆破过程中根据IP黑名单进行过滤，同时比较TTL，在泛解析记录中TTL是相同的，如果TTL不相同，则不是泛解析记录。**</p>
+<p><strong>常用域名记录解释：</strong><a href="https://blog.51cto.com/hashlinux/1663860" target="_blank"><strong>常用域名记录解释：A记录、MX记录、CNAME记录、TXT记录、AAAA记录、NS记录</strong><em><strong>安全守望者的技术博客</strong></em><strong>51CTO博客</strong></a></p>
+<p><strong>推荐工具：</strong><a href="https://github.com/shmilylty/OneForAll" target="_blank">https://github.com/shmilylty/OneForAll</a></p>
+<h2 id="toc_h2_55"><strong>APP收集</strong></h2>
+<p><strong>苹果手机APPstore中查看发布人，可以看到其他APP</strong><br>
+<strong>然后使用下面链接：从APK中提取域名和链接</strong></p>
+<p><a href="https://github.com/3stoneBrother/personalTools" target="_blank"><strong>3stoneBrother/personalTools: 分享一些安全小工具 (github.com)</strong></a></p>
+<h2 id="toc_h2_56"><strong>支付宝</strong></h2>
+<p><strong>支付宝的生活号和小程序差不多，可以搜一搜去挖。</strong></p>
+<h2 id="toc_h2_57"><strong>信息收集在线工具集合网站</strong></h2>
+<p><a href="https://gitbook.se7ensec.cn/" target="_blank">https://gitbook.se7ensec.cn/</a></p>
+<h2 id="toc_h2_58"><strong>参考案例</strong></h2>
+<p><a href="https://mp.weixin.qq.com/s/CisXRpxxa-77xFZU5_4sOQ" target="_blank">超全信息收集工具，果断收藏！ (qq.com)</a></p>
+<p><a href="https://mp.weixin.qq.com/s/LUB6y7iz2KAkOLMY8COzmQ" target="_blank">微信公众平台 (qq.com)</a></p>
+                    <div>
+                        <hr>
+
+标题：信息收集<br>
+作者：<a href="https://xjhh.asia" target="_blank">ArcherAr</a><br>
+地址：<a href="https://xjhh.asia/articles/2024/06/27/1719497419404.html" target="_blank">https://xjhh.asia/articles/2024/06/27/1719497419404.html</a><br>
+
+<!-- 签名档内可使用 HTML、JavaScript -->
+<br>
+                    </div>
+            </section>
+        </div>
+
+    </div>
+        <div class="post__toc">
+<ul class="article__toc">
+        <li class="toc__h1">
+            <a href="#toc_h1_0">一、信息收集</a>
+        </li>
+        <li class="toc__h6">
+            <a href="#toc_h6_1">我们现在对信息收集首先要有一个checklist，首先拿到一个目标站点，首先要测试的是哪方面，然后循序渐进的往下走，不能东一下西一下，后续会不断的更新信息收集的一些方法。</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_2">根域名获取</a>
+        </li>
+        <li class="toc__h3">
+            <a href="#toc_h3_3">天眼查、企查查、小蓝本、启信宝</a>
+        </li>
+        <li class="toc__h3">
+            <a href="#toc_h3_4">维基百科</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_5">1.获取真实IP</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_6">2.如何判断是否是 CDN</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_7">使用 ping 域名判断是否有 CDN</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_8">使用不同主机 ping 域名判断是否有 CDN</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_9">使用 nslookup 域名解析判断是否有 CDN（本人最常用）</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_10">3.如何绕过 CDN 获取真实 IP</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_11">查询子域名，子域名可能没有使用CDN</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_12">查询历史 DNS 记录</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_13">使用国外主机请求域名（也就是全球ping）</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_14">网站信息泄露漏洞</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_15">邮件信息</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_16">目标网站 APP 应用</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_17">4. 旁站查询（IP 反查）</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_18">Nmap 扫描获取旁站信息</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_19">第三方服务获取旁站信息3</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_20">5.IP查询</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_21">Nmap 扫描 C 段</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_22">搜索引擎语法收集 C 段信息</a>
+        </li>
+        <li class="toc__h3">
+            <a href="#toc_h3_23">本地 C 段扫描工具（其中某些工具不只是 C 段扫描）</a>
+        </li>
+        <li class="toc__h3">
+            <a href="#toc_h3_24">在线IP段查询</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_25">6. 子域名查询</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_26">枚举发现子域名</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_27">搜索引擎发现子域名</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_28">第三方聚合服务发现子域名</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_29">证书透明性信息发现子域名</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_30">DNS 域传送发现子域名</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_31">有许多第三方服务聚合了大量的DNS数据集，并通过它们来检索给 定域名的子域名。</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_32">ICP备案查询域名</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_33">7. 端口扫描</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_34">常见端口及对应服务表：</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_35">8. 目录探测</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_36">IP 代理池推荐：</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_37">9. 指纹识别</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_38">服务器信息搜集</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_39">CMS 识别</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_40">特定关键字识别</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_41">特定文件及路径识别</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_42">响应头信息识别</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_43">指纹识别工具</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_44">10.Google hacking</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_45">11. 社工信息收集</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_46">whois 信息</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_47">whois 命令</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_48">在线工具</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_49">12. 社会工程学</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_50">13. js中的敏感信息</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_51">14. logo变化</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_52">15.子域名泛解析</a>
+        </li>
+        <li class="toc__h3">
+            <a href="#toc_h3_53">定义：</a>
+        </li>
+        <li class="toc__h4">
+            <a href="#toc_h4_54">子域名爆破中解决泛解析的方式</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_55">APP收集</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_56">支付宝</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_57">信息收集在线工具集合网站</a>
+        </li>
+        <li class="toc__h2">
+            <a href="#toc_h2_58">参考案例</a>
+        </li>
+</ul>        </div>
+        <div class="wrapper">
+            <div id="gitalk-container"></div>
+            <div id="vcomment"
+                 style="    margin-bottom: 40px; margin-top: 80px;
+        border: 1px solid rgba(255,255,255,0.8);
+        border-radius: 5px;
+        background: rgba(255,255,255,0.9);
+        box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+        padding: 20px;"
+                 data-name="ArcherAr" data-postId="1719497419404"></div>
+            <div id="b3logsolocomments"></div>
+        </div>
+    <div class="article__bottom">
+        <div class="wrapper">
+            <div class="fn__flex">
+                <div class="item" id="randomArticles"></div>
+                <div class="item" id="relevantArticles"></div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<script type="text/javascript"
+        src="https://xjhh.asia/skins/Bubble/js/TweenMax.min.js?1719459715887"
+        charset="utf-8"></script>
+<footer class="footer">
+    <div class="wrapper">
+            <a href="https://ld246.com/member/ArcherAr"
+       title="https://ld246.com/member/ArcherAr"
+       class="user__site"
+       target="_blank" rel="noopener nofollow">
+        <svg viewBox="0 0 32 32" width="100%" height="100%">
+            <path fill="#d23f31" style="fill: var(--color1, #d23f31)" d="M5.787 17.226h17.033l5.954 9.528c0.47 0.752 0.003 1.361-1.042 1.361h-15.141z"></path>
+            <path d="M10.74 3.927h17.033c1.045 0 1.512 0.609 1.042 1.361l-5.954 9.528h-19.872l6.379-10.209c0.235-0.376 0.849-0.681 1.372-0.681z"></path>
+            <path d="M2.953 17.226h2.839l6.804 10.889h-1.892c-0.523 0-1.137-0.305-1.372-0.681z"></path>
+        </svg>
+    </a>
+
+
+ <br>
+        &copy; 2024
+        <a href="https://xjhh.asia">ArcherAr 的个人博客</a>
+        
+        <span class="footer__heart">❤️</span>
+    </div>
+</footer>
+<svg class="side__top" id="sideTop" version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <path d="M26.562 13.958c0 0.72 0.583 1.303 1.303 1.303s1.303-0.583 1.303-1.303v0c0-0.72-0.583-1.303-1.303-1.303s-1.303 0.583-1.303 1.303v0zM23.305 10.7c0 0 0 0 0 0 0 0.72 0.583 1.303 1.303 1.303s1.303-0.583 1.303-1.303c0-0 0-0 0-0v0c0-0 0-0 0-0 0-0.72-0.583-1.303-1.303-1.303s-1.303 0.583-1.303 1.303c0 0 0 0 0 0v0zM20.022 7.417c0 0 0 0 0 0 0 0.72 0.583 1.303 1.303 1.303s1.303-0.583 1.303-1.303c0-0 0-0 0-0v0c0-0 0-0 0-0 0-0.72-0.583-1.303-1.303-1.303s-1.303 0.583-1.303 1.303c0 0 0 0 0 0v0zM29.67 0h-27.339c-0.677 0-1.228 0.551-1.228 1.228s0.551 1.228 1.228 1.228h11.151l-10.725 10.725c-0.476 0.476-0.476 1.253 0 1.729 0.226 0.226 0.551 0.351 0.852 0.351s0.626-0.125 0.852-0.351l10.074-10.074v25.936c0 0.677 0.551 1.228 1.228 1.228s1.228-0.551 1.228-1.228v-26.011c0.476 0.426 1.203 0.426 1.679-0.050s0.476-1.253 0-1.729l-0.576-0.576h11.577c0.677 0 1.228-0.551 1.228-1.228 0-0.626-0.551-1.178-1.228-1.178z"></path>
+</svg>
+<script>
+  var Label = {
+    speech: true,
+    servePath: "https://xjhh.asia",
+    staticServePath: "https://xjhh.asia",
+    luteAvailable: false,
+    hljsStyle: 'github',
+    langLabel: "zh_CN",
+    version: "4.4.0",
+    staticSite: true,
+    showCodeBlockLn: true,
+    articleId: "1719497419404",
+  }
+</script>
+<script type="text/javascript"
+        src="https://xjhh.asia/skins/Bubble/js/common.min.js?1719459715887"
+        charset="utf-8"></script>
+<script type="text/javascript"
+        src="https://xjhh.asia/skins/Bubble/js/circleMagic.min.js?1719459715887"
+        charset="utf-8"></script>
+<link type="text/css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/kanbanniang@0.2.10/index.css"/>
+<script async src="https://cdn.jsdelivr.net/npm/kanbanniang@0.2.10/index.js"></script>
+<div class="solo-kanbanniang">
+    <div class="solo-kanbanniang__tip"></div>
+    <canvas id="soloKanbanniang" width="280" height="250"></canvas>
+    <div class="solo-kanbanniang__tool">
+        <svg id="soloKanbanniangHome" viewBox="0 0 32 32" width="100%" height="100%">
+            <path d="M32 18.967l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18.516v12h-8v-8h-8v8h-8v-12l12-9z"></path>
+        </svg>
+        <svg id="soloKanbanniangRSS" viewBox="0 0 1024 1024" width="32" height="32">
+            <path d="M320.364 768q0 45.728-32 77.728t-77.728 32-77.728-32-32-77.728 32-77.728 77.728-32 77.728 32 32 77.728zM612.94 838.272q1.152 16-9.728 27.424-10.272 12-26.848 12h-77.152q-14.272 0-24.576-9.44t-11.424-23.712q-12.576-130.848-105.44-223.712t-223.712-105.44q-14.272-1.152-23.712-11.424t-9.44-24.576V402.24q0-16.576 12-26.848 9.728-9.728 24.576-9.728h2.848q91.424 7.424 174.848 46.016t148 103.712q65.152 64.576 103.712 148t46.016 174.848z m292.576 1.152q1.152 15.424-10.272 26.848-10.272 11.424-26.272 11.424h-81.728q-14.848 0-25.44-10.016t-11.136-24.288q-6.848-122.848-57.728-233.44t-132.288-192-192-132.288-233.44-58.272q-14.272-0.576-24.288-11.136t-10.016-24.864V109.664q0-16 11.424-26.272 10.272-10.272 25.152-10.272h1.728q149.728 7.424 286.56 68.576t243.136 168q106.848 106.272 168 243.136t68.576 286.56z"></path>
+        </svg>
+        <svg id="soloKanbanniangChat" viewBox="0 0 1024 1024" width="32" height="32">
+            <path d="M802.42709 96.163153H219.476155c-84.48109 0-154.896836 71.746044-154.896836 157.840888v393.119449c0 86.072331 70.415746 157.819398 154.896836 157.819399h214.038818V925.470963s22.526039 40.168862 64.767096 5.734608c30.965246-25.819039 126.721123-91.828428 171.775248-123.385145h132.369773c84.502579 0 154.896836-83.21526 154.896836-157.839865V251.125481c0-86.094844-70.394257-154.962328-154.896836-154.962328zM301.144176 518.002714c-39.427988 0-70.416769-31.576159-70.416769-71.746044 0-40.168862 30.988782-71.746044 70.416769-71.746044 39.426965 0 70.393233 31.577183 70.393234 71.746044 0 40.169885-30.966269 71.746044-70.393234 71.746044z m208.411657 0c-39.450501 0-70.415746-31.576159-70.415746-71.746044 0-40.168862 30.965246-71.746044 70.415746-71.746044 39.405475 0 70.394257 31.577183 70.394257 71.746044 0 40.169885-30.988782 71.746044-70.394257 71.746044z m211.203236 0c-39.426965 0-70.416769-31.576159-70.416769-71.746044 0-40.168862 30.988782-71.746044 70.416769-71.746044s70.415746 31.577183 70.415746 71.746044c-0.001023 40.169885-30.988782 71.746044-70.415746 71.746044z"></path>
+        </svg>
+        <svg id="soloKanbanniangChange" viewBox="0 0 1024 1024" width="32" height="32">
+            <path d="M936.672 193.216l-226.88-64c-8.704-2.528-18.112-1.12-25.824 3.776-7.68 4.864-12.896 12.736-14.432 21.728C655.712 236.928 595.328 288 512 288c-71.424 0-142.464-103.296-163.776-143.104-7.136-13.28-22.528-19.84-37.024-15.68l-224 64C73.472 197.152 64 209.728 64 224v256a31.93 31.93 0 0 0 11.712 24.736c7.392 6.08 17.152 8.512 26.56 6.624L224 487.04V832c0 52.928 43.072 96 96 96h384c52.928 0 96-43.072 96-96V519.04l121.728 24.352c9.44 1.92 19.2-0.544 26.56-6.624C955.68 530.656 960 521.6 960 512V224c0-14.336-9.536-26.912-23.328-30.784zM672 800H352c-17.664 0-32-14.304-32-32s14.336-32 32-32h320c17.696 0 32 14.304 32 32s-14.304 32-32 32z"></path>
+        </svg>
+        <svg id="soloKanbanniangPhoto" viewBox="0 0 1024 1024" width="32" height="32">
+            <path d="M898.048 258.048q23.552-1.024 46.592 9.216t40.96 27.136 28.672 39.424 10.752 46.08l0 390.144q0 24.576-10.752 47.104t-28.672 40.448-40.96 28.16-47.616 10.24l-697.344 0q-24.576 0-48.64-10.24t-42.496-27.648-29.696-40.448-11.264-48.64l0-381.952q0-22.528 10.752-45.568t28.672-41.472 39.936-30.208 44.544-11.776l63.488 0 13.312-83.968q3.072-20.48 18.432-32.768t34.816-12.288l456.704 0q19.456 0 34.304 10.752t16.896 34.304l14.336 83.968 54.272 0zM548.864 712.704q40.96 0 77.824-15.872t63.488-42.496 42.496-62.976 15.872-77.312-15.872-77.312-42.496-62.976-63.488-42.496-77.824-15.872-77.312 15.872-63.488 42.496-43.008 62.976-15.872 77.312 15.872 77.312 43.008 62.976 63.488 42.496 77.312 15.872z"></path>
+        </svg>
+        <svg id="soloKanbanniangGithub" viewBox="0 0 1024 1024" width="32" height="32">
+            <path d="M1024 524.8c0 114.346667-32.554667 217.216-97.706667 308.565333-65.066667 91.306667-149.162667 154.538667-252.288 189.610667-11.989333 2.304-20.778667 0.682667-26.325333-4.778667a27.605333 27.605333 0 0 1-8.362667-20.48v-144.213333c0-44.16-11.52-76.501333-34.645333-97.024 25.344-2.730667 48.085333-6.826667 68.309333-12.288a268.629333 268.629333 0 0 0 62.72-26.666667 187.434667 187.434667 0 0 0 53.973334-45.44c14.421333-18.005333 26.197333-41.898667 35.328-71.765333 9.088-29.824 13.653333-64.128 13.653333-102.826667 0-55.125333-17.536-102.058667-52.650667-140.8 16.426667-41.429333 14.677333-87.893333-5.333333-139.392-12.458667-4.096-30.464-1.578667-54.016 7.509334a355.328 355.328 0 0 0-61.312 30.08L640 271.274667a462.336 462.336 0 0 0-128-17.749334c-43.989333 0-86.656 5.930667-128 17.749334a589.824 589.824 0 0 0-28.330667-18.432c-11.776-7.253333-30.336-16.042667-55.68-26.325334-25.344-10.24-44.416-13.312-57.301333-9.216-19.584 51.498667-21.12 97.962667-4.693333 139.434667-35.114667 38.698667-52.650667 85.632-52.650667 140.757333 0 38.698667 4.565333 72.874667 13.653333 102.485334 9.130667 29.610667 20.778667 53.546667 34.986667 71.765333 14.250667 18.218667 32.128 33.493333 53.674667 45.781333 21.546667 12.288 42.453333 21.205333 62.677333 26.666667 20.224 5.461333 43.008 9.557333 68.309333 12.288-17.749333 16.384-28.629333 39.850667-32.64 70.4a130.005333 130.005333 0 0 1-29.994666 10.24c-10.666667 2.261333-23.338667 3.413333-37.973334 3.413333-14.72 0-29.269333-4.906667-43.690666-14.677333-14.464-9.813333-26.794667-24.064-36.992-42.709333a109.226667 109.226667 0 0 0-32.341334-35.541334c-13.141333-9.130667-24.106667-14.592-33.024-16.426666l-13.312-2.048c-9.344 0-15.786667 1.024-19.328 3.072-3.584 2.090667-4.693333 4.693333-3.328 7.893333 1.28 3.157333 3.328 6.4 5.973334 9.557333 2.688 3.2 5.546667 5.930667 8.661333 8.192l4.693333 3.413334c9.770667 4.565333 19.413333 13.226667 29.013334 25.984 9.514667 12.757333 16.512 24.362667 20.992 34.858666l6.656 15.701334c5.76 17.322667 15.530667 31.317333 29.312 42.026666 13.781333 10.666667 28.672 17.536 44.672 20.48 16 2.986667 31.445333 4.565333 46.336 4.821334 14.890667 0.213333 27.221333-0.597333 36.992-2.389334l15.36-2.730666c0 17.28 0.085333 37.546667 0.298666 60.8l0.341334 36.906666a27.050667 27.050667 0 0 1-8.661334 20.48c-5.76 5.461333-14.677333 7.082667-26.666666 4.778667-103.125333-35.072-187.221333-98.261333-252.330667-189.610667C32.554667 742.058667 0 639.146667 0 524.8c0-95.232 22.869333-183.04 68.693333-263.466667A516.266667 516.266667 0 0 1 254.976 70.4C333.44 23.466667 419.114667 0 512 0c92.885333 0 178.56 23.466667 256.981333 70.4a516.266667 516.266667 0 0 1 186.368 190.976C1001.130667 341.802667 1024 429.653333 1024 524.842667z"></path>
+        </svg>
+        <svg id="soloKanbanniangClose" viewBox="0 0 1024 1024" width="32" height="32">
+            <path d="M517.572566143763 1018.6748601482986C238.26554897656422 1018.6748601482986 11.897910175114305 792.2714997690043 11.897910175114305 513.0002041796496c0-279.3070171671984 226.36763880144977-505.71037754649296 505.6746559686481-505.71037754649296 279.2712955893538 0 505.6746559686481 226.40336037929444 505.6746559686481 505.71037754649296C1023.2472221124112 792.2714997690043 796.8795833109612 1018.6748601482986 517.572566143763 1018.6748601482986zM754.7281214542927 339.25044954334646c13.752807470184345-13.752807470184345 9.680547595895998-40.186775075214015-9.073280772537204-58.94060344364717l-2.143294670678079-2.1075730928334457c-18.7538283684332-18.7538283684332-45.15207439561819-22.861809820566194-58.90488186580257-9.073280772537204l-168.21291007038468 168.24863164822932-180.42968969324974-180.46541127109438c-13.967136937252159-13.967136937252159-40.72259874288353-9.823433907274534-59.72647815622916 9.216167083915742l-2.143294670678079 2.143294670678079c-19.039600991190277 19.003879413345654-23.111860865478626 45.75934121897699-9.180445506071107 59.655035000539876l180.42968969324974 180.46541127109438-176.07165719620428 176.03593561835962c-13.788529048028984 13.824250625873615-9.716269173740633 40.151053497369375 9.073280772537204 58.94060344364717l2.1075730928334457 2.1075730928334457c18.7538283684332 18.7538283684332 45.15207439561819 22.897531398410823 58.90488186580257 9.073280772537204l176.10737877404887-176.10737877404887 170.39192631890742 170.42764789675192c13.967136937252159 13.931415359407513 40.686877165038865 9.85915548511917 59.690756578384516-9.180445506071107l2.1790162485227142-2.1790162485227142c19.039600991190277-18.968157835501014 23.147582443323273-45.72361964113239 9.180445506071107-59.690756578384516l-170.39192631890742-170.42764789675192L754.7281214542927 339.25044954334646z"></path>
+        </svg>
+    </div>
+</div>
+
+    <svg viewBox="0 0 32 32" width="100%" height="100%" class="side__top side__top--toc">
+        <path d="M30 18h-28c-1.1 0-2-0.9-2-2s0.9-2 2-2h28c1.1 0 2 0.9 2 2s-0.9 2-2 2zM30 6.25h-28c-1.1 0-2-0.9-2-2s0.9-2 2-2h28c1.1 0 2 0.9 2 2s-0.9 2-2 2zM2 25.75h28c1.1 0 2 0.9 2 2s-0.9 2-2 2h-28c-1.1 0-2-0.9-2-2s0.9-2 2-2z"></path>
+    </svg>
+
+<script type="text/javascript">
+    Util.addScript('https://xjhh.asia/js/page.min.js?1719459715887', 'soloPageScript')
+    var page = new Page({
+        "commentContentCannotEmptyLabel": "评论不能为空",
+        "oId": "1719497419404",
+        "blogHost": "https://xjhh.asia",
+        "randomArticles1Label": "随机阅读：",
+        "externalRelevantArticles1Label": "站外相关阅读："
+    });
+    $(document).ready(function () {
+        page.load();
+    page.tips.externalRelevantArticlesDisplayCount = "0";
+        page.loadRandomArticles('<h3>随机阅读</h3>');
+        page.loadRelevantArticles('1719497419404', '<h3>相关阅读</h3>');
+    Skin.initArticle()
+    });
+</script>
+
+</body>
+</html>
+
+<!-- Generated by Latke (https://github.com/88250/latke) in 4ms, 2024/06/27 23:35:18 -->
