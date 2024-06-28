@@ -6,8 +6,18 @@
     <atom:link href="https://xjhh.asia/rss.xml" rel="self" type="application/rss+xml"/>
     <description>记录精彩的程序人生</description>
     <generator>Solo, v4.4.0, https://b3log.org/solo</generator>
-    <lastBuildDate>Thu, 27 Jun 2024 23:35:18 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jun 2024 00:33:34 +0800</lastBuildDate>
     <language>zh-cn</language>
+    <item>
+      <title>JNDI___LOG4J2复现</title>
+      <link>https://xjhh.asia/articles/2024/06/29/1719592287418.html</link>
+      <description/>
+      <author>ArcherAr</author>
+      <guid>https://xjhh.asia/articles/2024/06/29/1719592287418.html</guid>
+      <category>网安测试路线</category>
+      <category>JAVA学习</category>
+      <pubDate>Sat, 29 Jun 2024 00:31:54 +0800</pubDate>
+    </item>
     <item>
       <title>信息收集</title>
       <link>https://xjhh.asia/articles/2024/06/27/1719497419404.html</link>
